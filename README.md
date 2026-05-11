@@ -1,8 +1,8 @@
 # -sistemaEstadistico_- :.
 # Sistema Estadístico en Java + Oracle 19c
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/06eb59fd-f13c-4991-82f8-8bdab45d9b51" />    
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/44b43819-dbee-4e06-bf4e-90d59887dc34" />    
+    
 ```
 
 ## Descripción
