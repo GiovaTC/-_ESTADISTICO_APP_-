@@ -62,4 +62,22 @@ public class EstadisticaDAO {
         }
         return suma / datos.size();
     }
-}   
+
+    public double calcularMediana() {
+        ArrayList<Double> datos = obtenerDatos();
+        Collections.sort(datos);
+
+        int tamaño = datos.size();
+
+        if (tamaño % 2 == 0) {
+
+            return (datos.get(tamaño / 2 - 1)
+                    + datos.get(tamaño / 2)) / 2;
+
+        } else {
+            return datos.get(tamaño / 2);
+        }
+    }
+
+    
+}
