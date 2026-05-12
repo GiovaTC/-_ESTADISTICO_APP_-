@@ -81,10 +81,41 @@ public class EstadisticaDAO {
 
 
     public double calcularModa() {
-        return 0;
+        ArrayList<Double> datos = obtenerDatos();
+
+        double moda = datos.get(0);
+        int maxFrecuencia = 0;
+
+        for (double valor : datos) {
+
+            int frecuencia = 0;
+
+            for (double n : datos) {
+                if (n == valor) {
+                    frecuencia++;
+                }
+            }
+
+            if (frecuencia > maxFrecuencia) {
+                maxFrecuencia = frecuencia;
+                moda = valor;
+            }
+        }
+
+        return moda;
     }
 
     public double calcularDesviacion() {
-        return 0;
+        ArrayList<Double> datos = obtenerDatos();
+
+        double promedio = calcularPromedio();
+
+        double suma = 0;
+
+        for (double n : datos) {
+            suma += Math.pow(n - promedio, 2);
+        }
+
+        return Math.sqrt(suma / datos.size());
     }
 }
