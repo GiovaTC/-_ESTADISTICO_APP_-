@@ -80,4 +80,11 @@ public class EstadisticaDAO {
     }
 
 
+    public double calcularModa() {
+        return 0;
+    }
+
+    public double calcularDesviacion() {
+        return 0;
+    }
 }
