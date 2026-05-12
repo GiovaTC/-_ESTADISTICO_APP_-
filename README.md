@@ -2,6 +2,8 @@
 # Sistema Estadístico en Java + Oracle 19c
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/44b43819-dbee-4e06-bf4e-90d59887dc34" />    
+
+<img width="2553" height="1079" alt="image" src="https://github.com/user-attachments/assets/30fe17ea-1d43-4155-a373-4e59d54f5d10" />    
     
 ```
 
